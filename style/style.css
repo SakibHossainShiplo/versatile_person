@@ -50,13 +50,12 @@ body {
   justify-content: space-between;
 
   align-items: center;
-  /* margin-top: 50px; */
+
   padding-top: 20px;
 }
 .nav_item {
   list-style: none;
   margin-right: 30px;
-  /* border: 1px solid #111111; */
 }
 .link {
   text-decoration: none;
@@ -310,13 +309,53 @@ th {
   /* border: 5px solid #961111; */
   /* width: 1200px; */
   border-radius: 10px;
+  padding-bottom: 50px;
 }
 .img_size {
-  width: 383px;
+  width: 375px;
   height: 226px;
   border-radius: 8px;
 }
-
+/* footer_conten */
+.footer_conten {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 100px;
+  /* padding-left: 100px; */
+  gap: 100px;
+}
+.color {
+  background-color: #5e5d5d;
+}
+.footer_dis {
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.list {
+  padding-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+ul,
+li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.lest_footer {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.lest_title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
 /* movile fun */
 @media screen and (max-width: 576px) {
   .navber,
@@ -396,7 +435,29 @@ th {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     /* border-radius: 10px; */
+    padding-left: 7px;
+  }
+
+  .footer_conten {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 70px;
+    padding-left: 50px;
+    /* gap: 100px; */
+  }
+  .footer_dis {
     padding-left: 0px;
+  }
+  ul,
+  li {
+    padding-left: 0px;
+  }
+  .list {
+    padding-left: 0px;
+  }
+  .lest_footer {
+    padding-left: 30px;
+    padding-right: 20px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 972px) {
@@ -444,5 +505,12 @@ th {
     grid-template-columns: repeat(2, 1fr);
     /* border-radius: 10px; */
     padding-left: 30px;
+  }
+  .footer_dis {
+    padding-left: 50px;
+  }
+  .lest_footer {
+    padding-left: 30px;
+    padding-right: 20px;
   }
 }
