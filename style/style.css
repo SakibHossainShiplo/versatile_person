@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* share al */
+.display_flex {
+  display: flex;
+}
+.text {
+  color: #ffffff;
+}
+.text_1 {
+  color: #777777;
+}
+.bac_color {
+  background: linear-gradient(180deg, rgb(17, 17, 17));
+}
+.button_1 {
+  background-color: #e6533c;
+  border: 1px solid #e6533c;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 15px 20px;
+}
+.button_2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 15px 20px;
+  border: 1px solid white;
+}
+/* nave var stylle  */
+
+.title {
+  color: #e6533c;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 100px;
+}
+.nav_links {
+  padding-right: 100px;
+}
+.navber {
+  justify-content: space-between;
+
+  align-items: center;
+  /* margin-top: 50px; */
+  padding-top: 20px;
+}
+.nav_item {
+  list-style: none;
+  margin-right: 30px;
+  /* border: 1px solid #111111; */
+}
+.link {
+  text-decoration: none;
+}
+/* banner style */
+.navber,
+.banner {
+  max-width: 1440px;
+}
+
+.banner {
+  /* justify-content: space-between; */
+}
+.img {
+  /* justify-content: space-between; */
+  padding-left: 200px;
+  /* gap: 300px; */
+}
+.banner_title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.banner_dis {
+  padding-bottom: 30px;
+}
+.span {
+  font-weight: 400;
+}
+.button_3 {
+  background-color: #777777;
+  border-radius: 10px;
+
+  border: 1px solid #777777;
+  margin-left: 200px;
+  margin-top: -2000px;
+}
+.button_4 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.banner_conten {
+  padding-left: 100px;
+}
+
+/* change */
+.change {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 80px;
+  justify-content: center;
+}
+.Change_conten {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+.Change_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.Change_dis {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.Change_1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.change_tiil {
+  /* align-items: center;/ */
+  /* padding-left: 50px;/ */
+}
+
+.change_img {
+  border-radius: 100%;
+}
+/* Run an Extra 
+Mile Easily --> */
+.Run_img {
+  height: 366px;
+  width: 312px;
+  border-radius: 10px;
+}
+.run_conten {
+  /* align-items: center; */
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.run_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.run_dis {
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.run_2 {
+  border: 1px solid #777777;
+  gap: 250px;
+  padding: 50px;
+  border-radius: 10px;
+  background: #777777;
+  box-shadow: 1060px 370px;
+}
+.run3 {
+  border: 1px solid #777777;
+  gap: 50px;
+}
+.run4 {
+  border: 1px solid #777777;
+}
+/* <!-- Trainings and Exercises --> */
+.Trainings_itmes {
+  padding-top: 70px;
+  padding-left: 100px;
+}
+.Trainings_dis {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.Trainings_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.Trainings_conten {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+.img_1 {
+  width: 385px;
+  height: 218px;
+}
+.img_2 {
+  width: 385px;
+  height: 218px;
+}
+.img_3 {
+  width: 385px;
+  height: 218px;
+}
+.img_4 {
+  width: 385px;
+  height: 218px;
+}
+.img_5 {
+  width: 385px;
+  height: 218px;
+}
+.img_6 {
+  width: 385px;
+  height: 218px;
+}
+/* <!-- BMI Calculator --> */
+
+/* .bmi_table {
+  border: 1px solid #777777;
+} */
+.Calculate_title {
+  font-size: 1.75rem;
+  font-weight: 900;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.Calculate__title {
+  font-size: 1.75rem;
+  font-weight: 900;
+  padding-top: 30px;
+}
+.Calculate__dis {
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bmi_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.bmi_dis {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.bmi_conten {
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  background-color: #777777;
+}
+
+table,
+td,
+th {
+  border: 1px solid #2b2b2b;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 15px;
+}
+.bim_had {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #070707;
+}
+.input-1 {
+  height: 50px;
+  width: 413px;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #0a0a0a;
+}
+.gap {
+  padding-bottom: 7px;
+}
+.input_conten {
+  /* max-width: 100%; */
+}
+
+/* movile fun */
+@media screen and (max-width: 576px) {
+  .navber,
+  .banner,
+  .nav_links {
+    flex-direction: column;
+  }
+  .img {
+    padding-left: 20px;
+  }
+  /* .button_2 {
+    padding-top: 10px;
+    gap: 20px;
+  } */
+  .banner_title {
+    padding-top: 20px;
+  }
+  .nav_links {
+    padding-right: 0px;
+  }
+  .banner_conten {
+    padding-left: 50px;
+  }
+  .title {
+    padding-left: 0px;
+  }
+  .change {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 10px;
+    justify-content: center;
+  }
+  .run_2 {
+    flex-direction: column;
+    gap: 100px;
+    padding: 15px;
+  }
+  .run_conten {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Trainings_conten {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 50px;
+  }
+
+  .Trainings_itmes {
+    padding-top: 70px;
+    padding-left: 20px;
+  }
+
+  .bmi_conten {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .input_conten {
+    /* max-width: 100%; */
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+
+  .input-1 {
+    height: 50px;
+    width: 203px;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  .input {
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 972px) {
+  img {
+    padding-left: 0px;
+  }
+  .nav_links {
+    padding-right: 0px;
+  }
+  .banner_conten {
+    padding-left: 50px;
+  }
+  .title {
+    padding-left: 50px;
+  }
+  .change {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 80px;
+    justify-content: center;
+  }
+
+  .run_2 {
+    /* flex-direction: column; */
+    gap: 100px;
+    padding: 15px;
+  }
+  .run_conten {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Trainings_conten {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 33px;
+    padding-right: 23px;
+    padding-top: 50px;
+  }
+  .bmi_conten {
+    gap: 50px;
+  }
+}
