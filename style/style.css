@@ -258,6 +258,7 @@ Mile Easily --> */
   justify-content: center;
   gap: 200px;
   background-color: #777777;
+  padding-bottom: 30px;
 }
 
 table,
@@ -290,8 +291,30 @@ th {
 .gap {
   padding-bottom: 7px;
 }
-.input_conten {
-  /* max-width: 100%; */
+/* meet */
+.meet_conten {
+  padding-top: 100px;
+  text-align: center;
+}
+.meet_dis {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.meet_img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 20px;
+  /* border: 5px solid #961111; */
+  /* width: 1200px; */
+  border-radius: 10px;
+}
+.img_size {
+  width: 383px;
+  height: 226px;
+  border-radius: 8px;
 }
 
 /* movile fun */
@@ -369,6 +392,12 @@ th {
     align-items: center;
     justify-content: center;
   }
+  .meet_img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* border-radius: 10px; */
+    padding-left: 0px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 972px) {
   img {
@@ -409,5 +438,11 @@ th {
   }
   .bmi_conten {
     gap: 50px;
+  }
+  .meet_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border-radius: 10px; */
+    padding-left: 30px;
   }
 }
