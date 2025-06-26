@@ -193,9 +193,11 @@ Mile Easily --> */
 .Trainings_conten {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 100px;
-  padding-right: 100px;
+
   padding-top: 50px;
+  max-width: 1440px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .img_1 {
   width: 385px;
@@ -280,9 +282,12 @@ th {
   border-radius: 8px;
   background-color: #070707;
 }
+.input_conten {
+  max-width: 550px;
+}
 .input-1 {
   height: 50px;
-  width: 413px;
+  width: 408px;
   border-radius: 8px;
   padding: 15px;
   background-color: #0a0a0a;
@@ -303,13 +308,12 @@ th {
 .meet_img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 100px;
-  padding-right: 100px;
   gap: 20px;
-  /* border: 5px solid #961111; */
-  /* width: 1200px; */
   border-radius: 10px;
   padding-bottom: 50px;
+  max-width: 1440px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .img_size {
   width: 375px;
@@ -400,8 +404,7 @@ li {
   .Trainings_conten {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 2px;
-    padding-right: 2px;
+    margin-left: 2px;
     padding-top: 50px;
   }
 
@@ -436,13 +439,14 @@ li {
     grid-template-columns: repeat(1, 1fr);
     /* border-radius: 10px; */
     padding-left: 7px;
+    margin-left: 2px;
   }
 
   .footer_conten {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-top: 70px;
-    padding-left: 50px;
+    padding-left: 20px;
     /* gap: 100px; */
   }
   .footer_dis {
@@ -493,9 +497,10 @@ li {
   .Trainings_conten {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 33px;
+    padding-left: 30px;
     padding-right: 23px;
     padding-top: 50px;
+    margin-left: 2px;
   }
   .bmi_conten {
     gap: 50px;
@@ -505,6 +510,7 @@ li {
     grid-template-columns: repeat(2, 1fr);
     /* border-radius: 10px; */
     padding-left: 30px;
+    margin-left: 2px;
   }
   .footer_dis {
     padding-left: 50px;
